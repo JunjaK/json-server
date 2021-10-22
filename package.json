@@ -1,0 +1,13 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "repository": "https://github.com/JunjaK/json-server.git",
+  "author": "윤준현 <yoonjunhyeon@twentyoz.kr>",
+  "license": "MIT",
+  "scripts": {
+    "run1": "json-server --watch db1.json"
+  },
+    "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
