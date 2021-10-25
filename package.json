@@ -5,8 +5,8 @@
   "author": "윤준현 <yoonjunhyeon@twentyoz.kr>",
   "license": "MIT",
   "scripts": {
-    "run1": "json-server --watch database/db1.json --port 3333",
-    "base": "json-server --watch database/db1.json"
+    "run1": "json-server -H 0.0.0.0 --watch database/db1.json --port 3333",
+    "base": "json-server -H 0.0.0.0 --watch database/db1.json"
   },
     "devDependencies": {
     "json-server": "^0.17.0"
